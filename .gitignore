@@ -1,0 +1,40 @@
+Environments
+
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+Byte-compiled / optimized / DLL files
+
+pycache/
+*.py[cod]
+*$py.class
+
+IDEs and Editors
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+Datasets (Do not push massive HDF5 or CSV files to GitHub)
+
+datasets/
+*.h5
+*.csv
+*.txt
+
+Saved Models (Do not push heavy PKL files)
+
+models/
+*.pkl
+*.joblib
+
+OS generated files
+
+.DS_Store
+Thumbs.db
