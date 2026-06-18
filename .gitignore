@@ -1,40 +1,22 @@
-Environments
-
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-Byte-compiled / optimized / DLL files
-
-pycache/
+# Python caches and local runtime metadata
+__pycache__/
 *.py[cod]
 *$py.class
+.venv/
+venv/
+env/
 
-IDEs and Editors
-
-.vscode/
+# IDE settings
 .idea/
+.vscode/
 *.swp
 *.swo
 
-Datasets (Do not push massive HDF5 or CSV files to GitHub)
-
+# BLOCK ALL DATASETS (Crucial)
 datasets/
-*.h5
-*.csv
-*.txt
+data/
+output/
 
-Saved Models (Do not push heavy PKL files)
 
+# BLOCK HEAVY MODEL CHECKPOINTS
 models/
-*.pkl
-*.joblib
-
-OS generated files
-
-.DS_Store
-Thumbs.db
