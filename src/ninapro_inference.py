@@ -20,7 +20,7 @@ def run_latency_test():
         print("[SUCCESS] Pipeline loaded successfully.")
     except FileNotFoundError:
         print(f"[ERROR] Could not find models in {SAVE_DIR}.")
-        print("Please ensure ninapro_benchmark.py finished saving the .pkl files.")
+        print("Please ensure step1_benchmark.py finished saving the .pkl files.")
         return
 
     # 2. Generate a simulated Hardware Output Vector
